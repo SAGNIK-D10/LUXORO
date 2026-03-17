@@ -1,0 +1,47 @@
+User-agent: *
+Allow: /
+Disallow: /login.html
+Disallow: /signup.html
+Disallow: /forgot-password.html
+Disallow: /cart.html
+Disallow: /account.html
+Disallow: /order-tracking.html
+Disallow: /wishlist.html
+Disallow: /compare.html
+Disallow: /admin/
+Disallow: /private/
+Disallow: /products.json
+
+Allow: /frontend/assets/
+
+Sitemap: https://luxora.com/sitemap.xml
+
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+Disallow: /login.html
+Disallow: /signup.html
+Disallow: /forgot-password.html
+Disallow: /cart.html
+Disallow: /account.html
+Disallow: /order-tracking.html
+Disallow: /wishlist.html
+Disallow: /compare.html
+Disallow: /products.json
+
+User-agent: Bingbot
+Allow: /
+Disallow: /login.html
+Disallow: /signup.html
+Disallow: /forgot-password.html
+Disallow: /cart.html
+Disallow: /account.html
+Disallow: /order-tracking.html
+Disallow: /wishlist.html
+Disallow: /compare.html
+Disallow: /products.json
+
+User-agent: MJ12bot
+Allow: /
+Crawl-delay: 2
