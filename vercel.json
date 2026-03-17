@@ -1,5 +1,23 @@
 {
     "version": 2,
+    "builds": [
+        {
+            "src": "api/index.js",
+            "use": "@vercel/node"
+        },
+        {
+            "src": "*.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "frontend/**",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "products.json",
+            "use": "@vercel/static"
+        }
+    ],
     "rewrites": [
         {
             "source": "/api/(.*)",
